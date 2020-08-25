@@ -3,7 +3,7 @@ const express=require('express');
 const server=express().listen(PORT,()=>{console.log("listening")});
 const mongodb=require('mongodb');
 //const mongo_url="mongodb://localhost:27017";
-const mongo_url="mongodb+srv://admin:admin123@cluster0.sln75.mongodb.net/todo?retryWrites=true&w=majority";
+const mongo_url="mongodb+srv://admin:admin123@cluster0.sln75.mongodb.net/taskone?retryWrites=true&w=majority";
 const {Server}=require('ws');
 const wss=new Server({server});
 
